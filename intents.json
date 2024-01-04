@@ -1,0 +1,278 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "College students"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of hostel",
+      "how much is the fees",
+      "hostel fees",
+      "fees for AC room",
+      "fees for non-AC room",
+      "fees for Ac room for girls",
+      "fees for non-Ac room for girls",
+      "fees for Ac room for boys",
+      "fees for non-Ac room for boys"
+   ],
+   "responses": [
+      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "c9",
+   "patterns": [
+      "what is the routen of c9",
+      "Can you provide information about the route of c9?",
+      "Tell me about the path or course of c9?",
+      "Provide details on the journey or itinerary of c9?",
+      "Explain the route for c9?",
+      "How can I navigate the path of c9?",
+      "What directions should I follow for c9?",
+      "Describe the route taken by c9?",
+      "Share insights on the course or route of c9?",
+      "What are the steps involved in the route of c9?"
+   ],
+   "responses": [
+      "+-----------+----------------------+------------------------------+--------------------------------------+\n|    Day    |         Time         |    Location                  |             Subject                  |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    SUN    | 09:00 AM - 11:00 AM  |  UK Lab-Oxford               | Artificial Intelligence              |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    TUE    | 09:00 AM - 11:00 AM  |  Alumni SR9-Simran Bhattari  | Aapplication Development             |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    WED    | 07:00 AM - 09:00 AM  |  Alumni SR1-Samir Gautam     | Advanced Database Systems Development|\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    THU    | 07:00 AM - 08:30 AM  |  Kumari Hall-1(lecture)      | Advanced Database Systems Development|\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    FRI    | 07:00 AM - 08:30 AM  |  Kumari Hall-1(lecture)      | Aapplication Development             |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    FRI    | 09:00 AM - 10:30 AM  |  Kumari Hall-1(lecture)      | Artificial Intelligence              |\n+-----------+----------------------+------------------------------+--------------------------------------+\n"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "c7",
+   "patterns": [
+      "what is the routen of c7",
+      "Can you provide information about the route of c7?",
+      "Tell me about the path or course of c7?",
+      "Provide details on the journey or itinerary of c7?",
+      "Explain the route for c7?",
+      "How can I navigate the path of c7?",
+      "What directions should I follow for c7?",
+      "Describe the route taken by c7?",
+      "Share insights on the course or route of c7?",
+      "What are the steps involved in the route of c7?"
+   ],
+   "responses": [
+      "+-----------+----------------------+------------------------------+--------------------------------------+\n|    Day    |         Time         |    Location                  |             Subject                  |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    SUN    | 09:00 AM - 11:00 AM  |  UK Lab-Oxford               | Aapplication Development             \n+-----------+----------------------+------------------------------+--------------------------------------+\n|    TUE    | 09:00 AM - 11:00 AM  |  Alumni SR9-Simran Bhattari  | Advanced Database Systems Development|\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    WED    | 07:00 AM - 09:00 AM  |  Alumni SR1-Samir Gautam     | Artificial Intelligence              |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    THU    | 07:00 AM - 08:30 AM  |  Kumari Hall-1(lecture)      | Advanced Database Systems Development|\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    FRI    | 07:00 AM - 08:30 AM  |  Kumari Hall-1(lecture)      | Aapplication Development             |\n+-----------+----------------------+------------------------------+--------------------------------------+\n|    FRI    | 09:00 AM - 10:30 AM  |  Kumari Hall-1(lecture)      | Artificial Intelligence              |\n+-----------+----------------------+------------------------------+--------------------------------------+\n"
+   ],
+   "context_set": ""
+}
+]
+}
