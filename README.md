@@ -16,7 +16,7 @@ This repository contains the code for a simple chatbot using PyTorch and Natural
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/chatbot.git
+    git clone https://github.com/bishaldan/chatbot.git
     cd chatbot
     ```
 
